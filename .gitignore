@@ -1,0 +1,60 @@
+# Secrets and per-machine environment; publish only safe templates.
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Frontend dependencies and generated output.
+node_modules/
+.next/
+.next-*/
+out/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+
+# Java/Maven build output.
+target/
+
+# Logs, process files and local reports/backups.
+*.log
+*.log.*
+logs/
+*.pid
+*.pid.lock
+.local/
+*.bak
+*.orig
+
+# PostgreSQL local storage and database dumps (keep db/migration/*.sql).
+postgres_data/
+postgres-data/
+postgresql-data/
+pgdata/
+.pgdata/
+data/postgres/
+data/postgresql/
+*.dump
+*.backup
+*.sql.gz
+*.db
+*.sqlite
+*.sqlite3
+
+# Python, macOS and IDE files.
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.idea/
+.vscode/

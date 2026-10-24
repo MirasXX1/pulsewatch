@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>PulseWatch</title>
+  <rect width="64" height="64" rx="14" fill="#132C26"/>
+  <path d="M9 34H20L27 18L35 47L42 26L47 34H55" stroke="#7EE3AD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
