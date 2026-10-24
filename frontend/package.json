@@ -11,7 +11,7 @@
     "check:build": "node tests/check-build.cjs"
   },
   "dependencies": {
-    "next": "15.5.26",
+    "next": "15.5.28",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -23,5 +23,10 @@
     "jsdom": "27.4.0",
     "tailwindcss": "4.3.3",
     "typescript": "~5.9.3"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.31"
+    }
   }
 }
